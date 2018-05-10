@@ -1,6 +1,6 @@
 # bitvec
 
-
+```
 int nlz32(int x)
 {
  int c = 0;
@@ -12,3 +12,4 @@ int nlz32(int x)
  if (x & 0xaaaaaaaa) { c |= 0x01; }
  return c ^ 31;
 }
+```
